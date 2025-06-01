@@ -1,0 +1,70 @@
+body {
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: darkblue;
+  text-align: center;
+}
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  border-radius: 50%;
+  margin: 20px auto;
+  border: 2px solid #333;
+}
+
+.intro {
+  font-size: 18px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.bold-text {
+  font-weight: bold;
+  color: green;
+}
+
+.contact-form {
+  margin-top: 30px;
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contact-form button:hover {
+  background-color: navy;
+}
